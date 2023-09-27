@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.app{
+    display: flex;
+    justify-content: start;
+    height: 100%;
+}
+.app__container{
+    display: flex;
+}
+.app__container_floor{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}

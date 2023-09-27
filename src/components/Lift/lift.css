@@ -1,0 +1,64 @@
+.lift{
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.lift__container{
+    position: relative;
+    border: 2px solid #cbcbcb;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.lift > div{
+    margin-right: 2rem;
+    height: 100%;
+}
+
+.lift__cabin{
+    background-color: aqua;
+    width: 5rem;
+}
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.flashing {
+    animation: flash 1s ease-in-out 3;
+}
+
+.lift__cabin_text{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow {
+    display: none;
+    height: 30px;
+    width: 30px;
+}
+
+.arrow-up {
+    height: 30px;
+    width: 30px;
+}
+
+.arrow-down {
+    height: 30px;
+    width: 30px;
+    transform: rotate(180deg);
+}
